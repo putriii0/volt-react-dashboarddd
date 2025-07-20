@@ -341,11 +341,12 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
 
-$spacer: 1rem;
+@use "sass:math";
+
 $spacers: (
   0: 0,
-1: $spacer / 4,
-  2: $spacer / 2,
+  1: math.div($spacer, 4),
+  2: math.div($spacer, 2),
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
