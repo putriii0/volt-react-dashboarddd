@@ -74,7 +74,11 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
+    "devDependencies": {
     "sass": "1.33.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
+
