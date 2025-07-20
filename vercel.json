@@ -3,5 +3,6 @@
     "env": {
       "NODE_OPTIONS": "--openssl-legacy-provider"
     }
-  }
+  },
+  "buildCommand": "npm install --legacy-peer-deps && npm run build"
 }
